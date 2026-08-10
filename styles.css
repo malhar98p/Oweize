@@ -981,28 +981,118 @@ a {
 
 /* Media Queries */
 @media (max-width: 768px) {
+  /* Navigation */
   .nav-links {
     display: none;
   }
-  .hero-container {
-    grid-template-columns: 1fr;
-    text-align: center;
+  .nav-actions {
+    display: none;
   }
-  .hero-content {
-    text-align: center;
+
+  /* Hero Section */
+  .hero-glass {
+    flex-direction: column;
+    height: auto;
+    padding-top: 120px;
+    padding-bottom: 60px;
   }
-  .hero-subtitle {
+  .hero-grid-glass {
+    width: 100%;
+    text-align: center;
+    padding-bottom: 40px;
+  }
+  .hero-title-glass {
+    font-size: 56px;
+  }
+  .hero-subtitle-glass {
     margin-left: auto;
     margin-right: auto;
   }
-  .hero-cta {
-    justify-content: center;
+  .hero-cta-glass {
     flex-direction: column;
-  }
-  .btn {
+    justify-content: center;
     width: 100%;
   }
-  .nav-actions {
-    display: none;
+  .hero-cta-glass .btn {
+    width: 100%;
+  }
+
+  /* Metrics Section */
+  .grid-3 {
+    grid-template-columns: 1fr;
+    gap: 24px;
+  }
+  .metrics-header {
+    flex-direction: column;
+    gap: 24px;
+  }
+  .metrics-header-left, .metrics-header-right {
+    text-align: center;
+  }
+  .metrics-header-right {
+    align-items: center;
+  }
+
+  /* Step Section */
+  .step-framer-layout {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+  .step-framer-image-wrapper {
+    min-height: 300px;
+  }
+
+  /* Bento Features */
+  .features-grid-framer {
+    grid-template-columns: 1fr;
+  }
+  .bento-span-2, .bento-span-3, .bento-row-2 {
+    grid-column: span 1;
+    grid-row: span 1;
+  }
+  .feature-card-framer {
+    min-height: 250px;
+  }
+
+  /* FAQ Layout */
+  .faq-centered-layout {
+    grid-template-columns: 1fr;
+  }
+  .faq-centered-header {
+    position: relative;
+    top: 0;
+    margin-bottom: 32px;
+  }
+
+  /* CTA */
+  .cta-floating-card {
+    flex-direction: column;
+    text-align: center;
+    gap: 32px;
+    margin: 0;
+    padding: 32px;
+  }
+  .cta-card-content {
+    text-align: center;
+  }
+  .cta-title-massive {
+    font-size: 40px;
+  }
+  .cta-card-actions {
+    flex-direction: column;
+    width: 100%;
+  }
+  .cta-card-actions .btn {
+    width: 100%;
+  }
+
+  /* Footer */
+  .footer-bottom-row {
+    flex-direction: column;
+    gap: 32px;
+    text-align: center;
+  }
+  .footer-logo-light {
+    font-size: 56px;
   }
 }
