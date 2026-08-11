@@ -834,6 +834,7 @@ a {
   background-image: url('assets/cta_billboard.jpg');
   background-size: cover;
   background-position: center;
+  background-attachment: fixed;
   background-color: #1A1A1A;
   min-height: 100vh;
   width: 100%;
@@ -1122,7 +1123,7 @@ a {
 
   .hero-badge-1 {
     top: -10px;
-    left: 0;
+    left: -20px;
   }
 
   .hero-badge-2 {
@@ -1323,12 +1324,12 @@ a {
 
   .hero-title-glass {
     font-size: 44px;
-    line-height: 1.1;
+    line-height: 1;
     margin-bottom: 24px;
   }
 
   .hero-title-line {
-    margin-bottom: 12px;
+    margin-bottom: 6px;
   }
 
   .hero-subtitle-glass {
@@ -1444,6 +1445,7 @@ a {
     background-size: 250% auto;
     background-position: top center;
     background-repeat: no-repeat;
+    background-attachment: fixed;
   }
 
   .section-cta-framer::before {
