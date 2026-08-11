@@ -1357,6 +1357,10 @@ a {
     white-space: nowrap;
   }
 
+  .hero-cta-glass .btn svg {
+    display: none;
+  }
+
   /* Metrics Section */
   .grid-3 {
     grid-template-columns: 1fr;
@@ -1492,6 +1496,10 @@ a {
     padding: 0 8px;
     font-size: 13px;
     white-space: nowrap;
+  }
+
+  .cta-card-actions .btn svg {
+    display: none;
   }
 
   /* Footer */
