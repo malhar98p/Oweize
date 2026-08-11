@@ -1310,7 +1310,7 @@ a {
     width: auto;
     max-width: 100%;
     object-fit: contain;
-    transform: scale(1.25);
+    transform: scale(1);
     -webkit-mask-image:
       linear-gradient(to right, transparent 0%, black 15%, black 85%, transparent 100%),
       linear-gradient(to bottom, transparent 0%, black 10%, black 90%, transparent 100%) !important;
@@ -1322,7 +1322,13 @@ a {
   }
 
   .hero-title-glass {
-    font-size: 56px;
+    font-size: 44px;
+    line-height: 1.1;
+    margin-bottom: 24px;
+  }
+
+  .hero-title-line {
+    margin-bottom: 12px;
   }
 
   .hero-subtitle-glass {
